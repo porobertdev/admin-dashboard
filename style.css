@@ -16,6 +16,7 @@
     --fw-bold: 700;
     /* font sizes */
     --fs-title: 1.5rem;
+    --fs-card: 0.8rem;
 
     /* widths */
     --w-dash-icon: 3.5rem;
@@ -133,7 +134,8 @@ button {
     width: var(--w-search-bar);
 }
 
-.user-info img.avatar {
+.user-info img.avatar,
+.trending img.avatar {
     width: var(--w-avatar-small);
 }
 .hello-msg img.avatar {
@@ -211,4 +213,69 @@ span.name {
 
 .hello-msg span.name {
     font-size: 1.2rem;
+}
+
+/* PROJECTS */
+.projects {
+    background-color: var(--clr-gray);
+    gap: 25px;
+    padding: 3rem 1.5rem;
+}
+.projects .card {
+    background-color: white;
+    border-radius: 10px;
+    border-left: 9px solid var(--clr-border);
+    padding: 1.5rem;
+}
+.card p {
+    font-size: var(--fs-card);
+    font-weight: var(--fw-light);
+    opacity: 80%;
+}
+
+.projects-1,
+.news,
+.trending {
+    position: relative;
+}
+
+.projects h5.title {
+    position: relative;
+    bottom: 60px;
+    right: 30px;
+    font-size: 1rem;
+}
+
+.news,
+.trending {
+    border: none !important;
+}
+
+.projects > div[class*="project"]{
+    display: grid;
+    align-items: center;
+    gap: 25px;
+}
+
+.projects .actions {
+    justify-self: right;
+
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+}
+
+.news {
+    display: grid;
+    /* gap: 10px; */
+}
+.news > div {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+/* TRENDING */
+.trending div {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
 }
