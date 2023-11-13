@@ -6,8 +6,18 @@
 
     /* fonts */
     --ff-main: 'Roboto', sans-serif;
+
+    /* font weight */
     --fw-regular: 400;
     --fw-light: 300;
+
+    /* widths */
+    --w-dash-icon: 3.5rem;
+    --w-sidebar-icon: 1.6rem;
+    --w-card-icon: 1.3rem;
+    --w-search-bar: 1rem;
+    --w-avatar-small: 3.8rem;
+    --w-avatar-large: calc(var(--w-avatar-small) + 1.5rem);
 }
 
 /* reset styles */
@@ -60,3 +70,27 @@ button {
     grid-column: 3;
     grid-row: 3 / 5;
 } */
+
+.card img.icon,
+.user-info img.icon {
+    width: var(--w-card-icon);
+}
+
+.sidebar .title img.icon {
+    width: var(--w-dash-icon);
+}
+
+.sidebar li > img.icon {
+    width: var(--w-sidebar-icon);
+}
+
+.search-bar img.icon {
+    width: var(--w-search-bar);
+}
+
+.user-info img.avatar {
+    width: var(--w-avatar-small);
+}
+.hello-msg img.avatar {
+    width: var(--w-avatar-large);
+}
