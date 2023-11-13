@@ -84,7 +84,9 @@ button {
     width: var(--w-card-icon);
 }
 
-.sidebar {
+/* SIDEBAR */
+.sidebar,
+button {
     background-color: var(--clr-blue);
     color: var(--clr-sidebar-text);
     font-weight: var(--fw-bold);
@@ -136,4 +138,77 @@ button {
 }
 .hello-msg img.avatar {
     width: var(--w-avatar-large);
+}
+
+/* HEADER */
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.header .search-bar {
+    justify-self: stretch;
+
+    display: grid;
+    grid-template-columns: 0.4fr 3fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar img {
+    justify-self: right;
+}
+
+.search-bar input {
+    background-color: var(--clr-gray);
+    border-radius: 15px;
+    border: none;
+    padding: 0.2rem;
+}
+
+.header .user-info {
+    justify-self: left;
+    margin-left: 4rem;
+
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .actions {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+    justify-self: start;
+}
+
+button {
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+
+.header .hello-msg {
+    justify-self: start;
+    margin-left: 1rem;
+
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.hello-msg p {
+    display: grid;
+    font-size: 0.7rem;
+    font-weight: var(--fw-bold);
+}
+
+span.name {
+    font-weight: var(--fw-bold);
+}
+
+.hello-msg span.name {
+    font-size: 1.2rem;
 }
