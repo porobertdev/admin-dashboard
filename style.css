@@ -1,0 +1,11 @@
+:root {
+    /* colors */
+    --clr-blue: #1992D4;
+    --clr-border: #F0B429;
+    --clr-gray: #E2E8F0;
+
+    /* fonts */
+    --ff-main: 'Roboto', sans-serif;
+    --fw-regular: 400;
+    --fw-light: 300;
+} 
