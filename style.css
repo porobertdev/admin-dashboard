@@ -25,6 +25,9 @@
     --w-search-bar: 1rem;
     --w-avatar-small: 3.8rem;
     --w-avatar-large: calc(var(--w-avatar-small) + 1.5rem);
+
+    /* padding */
+    --pd-card: 1rem;
 }
 
 /* reset styles */
@@ -245,7 +248,7 @@ span.name {
     background-color: white;
     border-radius: 10px;
     border-left: 9px solid var(--clr-border);
-    padding: 1.5rem;
+    padding: var(--pd-card);
 }
 .card p {
     font-size: var(--fs-card);
