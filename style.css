@@ -116,6 +116,7 @@ button {
 .navbar {
     display: grid;
     gap: 30px;
+    position: fixed;
 }
 
 .navbar .title,
