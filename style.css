@@ -93,6 +93,7 @@ button {
 }
 .news {
     grid-area: news;
+    margin-bottom: 1.5rem;
 }
 .trending {
     grid-area: trending;
@@ -264,9 +265,11 @@ span.name {
 
 .projects h5.title {
     position: relative;
-    bottom: 60px;
-    right: 30px;
+    bottom: 2.5rem;
+    right: 1rem;
+    margin-bottom: -1rem;
     font-size: 1rem;
+    opacity: 70%;
 }
 
 .news,
