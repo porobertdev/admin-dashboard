@@ -288,10 +288,6 @@ span.name {
     gap: 30px;
 }
 
-.news {
-    display: grid;
-    /* gap: 10px; */
-}
 .news > div {
     border-bottom: 1px solid black;
     padding: 15px;
@@ -301,4 +297,10 @@ span.name {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.trending .username {
+    font-weight: var(--fw-regular);
 }
