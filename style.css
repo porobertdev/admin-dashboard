@@ -3,6 +3,7 @@
     --clr-blue: #1992D4;
     --clr-border: #F0B429;
     --clr-gray: #E2E8F0;
+    --clr-shadow: #aeaeae3a;
     /* Thanks to StackOverflow: https://stackoverflow.com/a/53336754/21600888 */
     --clr-sidebar-icon: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     --clr-sidebar-text: white;
@@ -248,6 +249,7 @@ span.name {
     border-radius: 10px;
     border-left: 9px solid var(--clr-border);
     padding: var(--pd-card);
+    box-shadow: 5px 5px 5px var(--clr-shadow);
 }
 .card p {
     font-size: var(--fs-card);
