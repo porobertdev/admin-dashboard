@@ -121,10 +121,13 @@ button {
 .navbar .title,
 .navbar ul li {
     display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
     align-items: center;
-    gap: 1.2rem;
+    gap: 0.5rem;
+}
+.navbar ul li p { 
+    justify-self: start;
 }
 
 .navbar ul {
