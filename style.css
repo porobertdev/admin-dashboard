@@ -130,6 +130,9 @@ button {
 .navbar ul li p { 
     justify-self: start;
 }
+.navbar li:nth-child(7) {
+    margin-top: 2rem;
+}
 
 .navbar ul {
     display: grid;
