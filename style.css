@@ -167,17 +167,16 @@ button {
 /* HEADER */
 .header {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1.5fr 1fr;
     align-items: center;
     justify-items: center;
-    column-gap: 40px;
 }
 
 .header .search-bar {
     justify-self: stretch;
 
     display: grid;
-    grid-template-columns: 0.4fr 3fr;
+    grid-template-columns: 0.3fr 3fr;
     align-items: center;
     gap: 15px;
 }
@@ -194,20 +193,20 @@ button {
 }
 
 .header .user-info {
-    justify-self: left;
     margin-left: 4rem;
-
-    display: grid;
-    grid-auto-flow: column;
     align-items: center;
     gap: 15px;
 }
 
 .header .actions {
+    gap: 30px;
+}
+
+.user-info,
+.actions {
     display: grid;
     grid-auto-flow: column;
-    gap: 30px;
-    justify-self: start;
+    justify-self: center;
 }
 
 button {
