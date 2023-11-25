@@ -1,4 +1,4 @@
-# admin-dashboard - [Live Preview](https://porobertdev.github.io/etch-a-sketchhttps:/)
+# admin-dashboard - [Live Preview](https://porobertdev.github.io/admin-dashboard/)
 
 This project is part of [TheOdinProject](https://www.theodinproject.com/) curriculum. The project's lesson can be found [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
